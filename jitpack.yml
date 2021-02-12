@@ -1,0 +1,11 @@
+install:
+   - echo "installing ..."
+   - pwd
+   - id -a
+   - ls -al
+   - mkdir -p ~/.m2/repository/info/guardianproject/netcipher/netcipher/2.0.0-beta1
+   - cp maven-metadata.xml ~/.m2/repository/info/guardianproject/netcipher/netcipher/
+   - cp netcipher-2.0.0-beta1.jar ~/.m2/repository/info/guardianproject/netcipher/netcipher/2.0.0-beta1/
+   - cp netcipher-2.0.0-beta1.aar ~/.m2/repository/info/guardianproject/netcipher/netcipher/2.0.0-beta1/
+   - cp netcipher-2.0.0-beta1.pom ~/.m2/repository/info/guardianproject/netcipher/netcipher/2.0.0-beta1/
+
